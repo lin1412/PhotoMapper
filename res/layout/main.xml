@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:gravity="bottom"
+	android:weightSum="1" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.maps.MapView
+		android:layout_height="111dp" android:id="@+id/mapView"
+		android:layout_width="match_parent" android:layout_weight="1.00"
+		android:clickable="true" android:apiKey="01MkuEkWgib7R3wY_v0zmWBs-4F3R99TnlY1K_Q"></com.google.android.maps.MapView>
+	<TextView android:layout_weight="1.00" android:id="@+id/statusLabel" android:layout_width="match_parent" android:text="TextView" android:layout_height="wrap_content"></TextView>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/linearLayout1"
+		android:gravity="center">
+		<Button android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/addPhoto" android:text="@string/AddPhoto" android:onClick="addButtonClicked"></Button>
+		<Button android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/removePhoto" android:text="@string/Remove" android:onClick="removeButtonClicked"></Button>
+		<Button android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/viewPhoto" android:text="@string/View" android:onClick="viewButtonClicked"></Button>
+	</LinearLayout>
+</LinearLayout>

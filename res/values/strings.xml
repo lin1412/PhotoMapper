@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PhotoMapperActivity!</string>
+    <string name="app_name">Photo Mapper</string>
+    <string name="Add"></string>
+    <string name="Remove">Remove</string>
+    <string name="View">View</string>
+    <string name="AddPhoto">Add</string>
+</resources>
